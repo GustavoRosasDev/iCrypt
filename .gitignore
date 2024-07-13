@@ -7,3 +7,8 @@ venv/
 # Pytest Caches
 .pytest_cache
 src/tests/.pytest_cache
+src/__pycache__
+src/etc/__pycache__
+src/app/__pycache__
+src/functions/__pycache__
+src/tests/__pycache__
