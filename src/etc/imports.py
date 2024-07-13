@@ -14,6 +14,8 @@ import customtkinter as ctk
 # noinspection PyUnresolvedReferences
 from PIL import Image
 # noinspection PyUnresolvedReferences
+import webbrowser
+# noinspection PyUnresolvedReferences
 import platform
 # noinspection PyUnresolvedReferences
 import base64
