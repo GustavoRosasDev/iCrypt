@@ -9,7 +9,7 @@ Profile: https://www.linkedin.com/in/gustavorosas-/
 # Function to process encryption/decryption
 def process_message(entry_key,
                     text_box,
-                    slider_value,
+                    first_slider_value,
                     pad_key_to_32_bytes,
                     fernet,
                     base64,
@@ -35,7 +35,7 @@ def process_message(entry_key,
         # Create a Fernet instance with the padded key
         fernet_key = fernet(base64.urlsafe_b64encode(padded_key))
 
-        if slider_value.get() == "on":
+        if first_slider_value.get() == "on":
             # Encrypt the message
             encrypted_message = fernet_key.encrypt(message.encode())
             text_box.delete("1.0",
