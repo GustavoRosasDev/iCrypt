@@ -6,15 +6,16 @@ Profile: https://www.linkedin.com/in/gustavorosas-/
 """
 
 
-# Function to change the switch name
-def change_switch_name(slider):
+# Function to change the first_slider (Encryption-Decryption) name
+def change_first_slider_name(first_slider):
     """
     Change the name of the switch between "Encryption" and "Decryption".
     """
 
-    current_text = slider.cget("text")
+    current_text = first_slider.cget("text")
     if current_text == "Decryption":
-        slider.configure(text="Encryption")
+        first_slider.configure(text="Encryption")
     elif current_text == "Encryption":
-        slider.configure(text="Decryption")
+        first_slider.configure(text="Decryption")
+
 
