@@ -6,10 +6,10 @@ Profile: https://www.linkedin.com/in/gustavorosas-/
 """
 
 # noinspection PyUnresolvedReferences
-from src.functions.change_switch_name import change_switch_name
+from src.functions.change_switch_name import change_first_slider_name, change_second_slider_name
 # noinspection PyUnresolvedReferences
 from src.functions.pad_key_to_32_bytes import pad_key_to_32_bytes
 # noinspection PyUnresolvedReferences
-from src.functions.process_message import process_message
+from src.functions.process_message import process_message, process_file
 # noinspection PyUnresolvedReferences
 from src.functions.copy_content_to_clipboard import copy_content_to_clipboard
