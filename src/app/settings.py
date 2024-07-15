@@ -17,7 +17,6 @@ APP_HEIGHT = 300
 APP = ctk.CTk()
 APP.geometry(f"{APP_WIDTH}x{APP_HEIGHT}")
 APP.title(APP_NAME)
-APP.iconbitmap(logo_file)
 APP.wm_attributes("-topmost", True)
 
 # Set minimum and maximum APP dimensions
@@ -43,6 +42,6 @@ ctk.set_default_color_theme("blue")  # Tema azul
 # window header.
 if platform == 'win32':
     try:
-        APP.iconbitmap(r"src\image\logo.ico")
+        APP.iconbitmap(logo_file)
     except FileNotFoundError:
         APP.iconbitmap(r"_internal\resources\image\logo.ico")
