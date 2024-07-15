@@ -16,7 +16,7 @@ from PIL import Image
 # noinspection PyUnresolvedReferences
 import webbrowser
 # noinspection PyUnresolvedReferences
-import platform
+from sys import platform
 # noinspection PyUnresolvedReferences
 import base64
 # noinspection PyUnresolvedReferences
