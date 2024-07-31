@@ -5,8 +5,9 @@ Developer: Gustavo Rosas
 Profile: https://www.linkedin.com/in/gustavorosas-/
 """
 
+import os
 from src.app.info import APP_NAME
-from src.etc.imports import ctk, platform
+from src.etc.imports import ctk, system
 from src.etc.variables import logo_file
 
 # Controls the dimensions of the application.
@@ -34,14 +35,17 @@ posicao_y = (SCREEN_HEIGHT - APP_HEIGHT) // 2
 # Set window geometry (centered on screen)
 APP.geometry(f"{APP_WIDTH}x{APP_HEIGHT}+{posicao_x}+{posicao_y}")
 
-# Configuração inicial do customtkinter
+# Initial configuration of customtkinter
 ctk.set_appearance_mode("dark")  # Modo "dark"
 ctk.set_default_color_theme("blue")  # Tema azul
 
-# Sets the application icon "only if the platform is Windows", because on Linux the icon may not be displayed in the
-# window header.
-if platform == 'win32':
+# Check if the operating system is Windows
+if system() == 'Windows':
     try:
-        APP.iconbitmap(logo_file)
-    except FileNotFoundError:
-        APP.iconbitmap(r"_internal\resources\image\logo.ico")
+        if os.path.exists(logo_file):
+            APP.iconbitmap(logo_file)
+        else:
+            # Caminho alternativo se o ícone não for encontrado
+            APP.iconbitmap(rf"_internal\resources\image\logo.ico")
+    except FileNotFoundError as e:
+        print(f"Erro: {e}")
