@@ -7,4 +7,4 @@ Profile: https://www.linkedin.com/in/gustavorosas-/
 
 DEVELOPER_NAME = "Gustavo Rosas"
 APP_NAME = "iCrypt"
-APP_VERSION = "Beta"
+APP_VERSION = "1.0"
