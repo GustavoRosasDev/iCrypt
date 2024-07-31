@@ -11,20 +11,57 @@ from src.functions.copy_content_to_clipboard import copy_content_to_clipboard
 
 class AppMock:
     def clipboard_clear(self):
+        """
+            Clears the current contents of the clipboard.
+
+            This method removes any text or data currently stored in the system clipboard.
+            The specific implementation may vary depending on the operating system and execution environment.
+        """
         pass
 
     def clipboard_append(self, content):
+        """
+            Adds the specified content to the clipboard.
+
+            Parameters:
+            content (str): The text or data to be copied to the clipboard.
+
+            This method adds the provided content to the system clipboard. If the clipboard
+            already contains some data, new content can replace or be added to existing content,
+            depending on the implementation.
+            The specific implementation may vary depending on the operating system and execution environment.
+        """
         pass
 
 
 class TextBoxMock:
     def __init__(self):
+        """
+            Initializes a new instance of `TextBoxMock` with empty content.
+        """
         self.content = ""
 
-    def get(self, start, end):
+    def get(self, _start, _end):
+        """
+            Returns the current contents of the text box.
+
+            Parameters:
+            _start (str): Starting point (not used in this mock).
+            _end (str): End point (not used in this mock).
+
+            Returns:
+            str: The contents of the text box.
+        """
         return self.content
 
-    def delete(self, start, end):
+    def delete(self, _start, _end):
+        """
+            Clears the contents of the text box.
+
+            Parameters:
+            _start (str): Starting point (not used in this mock).
+            _end (str): End point (not used in this mock).
+        """
         self.content = ""
 
 
