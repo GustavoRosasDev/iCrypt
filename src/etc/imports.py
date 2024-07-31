@@ -6,8 +6,6 @@ Profile: https://www.linkedin.com/in/gustavorosas-/
 """
 
 # noinspection PyUnresolvedReferences
-from cryptography.fernet import Fernet as fernet
-# noinspection PyUnresolvedReferences
 from tkinter import messagebox
 # noinspection PyUnresolvedReferences
 import customtkinter as ctk
@@ -16,7 +14,7 @@ from PIL import Image
 # noinspection PyUnresolvedReferences
 import webbrowser
 # noinspection PyUnresolvedReferences
-from sys import platform
+from platform import system
 # noinspection PyUnresolvedReferences
 import base64
 # noinspection PyUnresolvedReferences
