@@ -25,7 +25,7 @@
 <!-- Overview -->
 ## 🔎 Overview
 
-  **iCrypt** is a versatile encryption and decryption tool designed to enhance the privacy and security of your data. Born from the need to protect sensitive information, **iCrypt** offers a robust solution for encrypting and decrypting texts and various file types, including images, videos, and .rar files.
+  **iCrypt** is a versatile encryption and decryption tool designed to enhance the privacy and security of your data. Born from the need to protect sensitive information, **iCrypt** offers a robust solution for encrypting and decrypting texts and various file types.
   
   Entirely developed in Python, iCrypt features a sleek and user-friendly Graphical User Interface (GUI) built with <a href="http://customtkinter.tomschimansky.com/">Customtkinter</a>, by <a href="https://github.com/TomSchimansky">Tom Schimansky</a>.
   
