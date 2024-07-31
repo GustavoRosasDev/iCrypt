@@ -15,5 +15,6 @@ def open_profile():
     Returns:
         None
     """
+
     profile_url = 'linkedin.com/in/gustavorosas-'
     webbrowser.open(profile_url)
