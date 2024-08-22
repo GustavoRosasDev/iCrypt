@@ -36,6 +36,8 @@
 
 > With **iCrypt**, you can have full control over your data privacy, ensuring that your sensitive information remains protected at all times.
 
+### Watch the video below:
+[![Thumbnail iCrypt](src/image/thumbnail.png)](https://youtu.be/dANTHpMPSjc)
 
 ## 📝 Documentation
 
