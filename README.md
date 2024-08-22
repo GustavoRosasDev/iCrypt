@@ -37,7 +37,7 @@
 > With **iCrypt**, you can have full control over your data privacy, ensuring that your sensitive information remains protected at all times.
 
 ### Watch the video below:
-[![Thumbnail iCrypt](src/image/thumbnail.png)](https://youtu.be/dANTHpMPSjc)
+[![Thumbnail](src/image/thumbnail_yt.png)](https://youtu.be/dANTHpMPSjc)
 
 ## 📝 Documentation
 
@@ -441,5 +441,5 @@ See [LICENSE](src/docs/LICENSE.md)
 
 <!-- SVG Typing -->
 <p align="center"><br /><br />
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=4285F4&center=true&random=false&width=435&lines=Keep+Learning.+Keep+Hacking!" alt="Typing SVG">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=4285F4&center=true&random=false&width=435&lines=Keep+Learning.+Keep+Encrypting!" alt="Typing SVG">
 </p><br /><br />
