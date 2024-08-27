@@ -188,8 +188,6 @@ To significantly enhance the security of your data, apply multi-layer encryption
 | ```Text```| ```SHA-128```<br/>```SHA-256``` | Encrypts plaintext input using the selected hashing algorithm, converting it into a secure format. |
 | ```File```| ```SHA-256```          | Encrypts files, ensuring their content is securely transformed and protected. |
 
-### Demonstration:
-
 </details>
 
 <!-- Decryption -->
@@ -200,8 +198,6 @@ To significantly enhance the security of your data, apply multi-layer encryption
 |---------|------------------------------|-------------|
 | ```Text```| ```SHA-128```<br/>```SHA-256``` | Decrypts encrypted text back into its original plaintext format using the selected algorithm. |
 | ```File```| ```SHA-256```                | Decrypts encrypted files, restoring their original content securely. |
-
-### Demonstration:
 
 </details>
 
@@ -295,20 +291,20 @@ To use this software, follow the steps below:
   <summary><strong>1️⃣ Cloning this repository</strong></summary>
 
 1. Navigate to the folder where you typically install programs or applications on your computer. Any folder you prefer.
-   2. Opens the Terminal. To do this, **follow any of the instructions below**:
+2. Opens the Terminal. To do this, **follow any of the instructions below**:
    
-       **On Windows**, there are 2 options:
-         - Via **CMD** *(Command Prompt)*:
-            1. In the address bar located at the top of the window, **click on the folder address field**. If it's not visible, ensure that 'Address Bar' is checked in the 'View' menu.
-            2. Type `CMD` in the selected address bar and press `enter`. This opens a **CMD-type** terminal in the current folder.
-         - Via **PowerShell**:
-            1. In the upper address bar, click to select the folder address. If not visible, ensure 'Address Bar' is checked in the 'View' menu.
-            2. Right-click on the selected address bar and choose `Open in Terminal`. This opens a **PowerShell-type** terminal in the current folder.
+**On Windows**, there are 2 options:
+  - Via **CMD** *(Command Prompt)*:
+     1. In the address bar located at the top of the window, **click on the folder address field**. If it's not visible, ensure that 'Address Bar' is checked in the 'View' menu.
+     2. Type `CMD` in the selected address bar and press `enter`. This opens a **CMD-type** terminal in the current folder.
+  - Via **PowerShell**:
+     1. In the upper address bar, click to select the folder address. If not visible, ensure 'Address Bar' is checked in the 'View' menu.
+     2. Right-click on the selected address bar and choose `Open in Terminal`. This opens a **PowerShell-type** terminal in the current folder.
 
-       **On Linux** (via Bash):<br />
-      - Right-click on the folder background and select `Open in Terminal` or navigate to the project root folder using the `cd` command.
+**On Linux** (via Bash):<br />
+- Right-click on the folder background and select `Open in Terminal` or navigate to the project root folder using the `cd` command.
 
-   3. Next, clone this repository into the folder you chose. To do this, copy and paste the command below into your terminal and press `enter`:
+3. Next, clone this repository into the folder you chose. To do this, copy and paste the command below into your terminal and press `enter`:
   ```
   git clone https://github.com/GustavoRosasDev/iCrypt.git
   ```
